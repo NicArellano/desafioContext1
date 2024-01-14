@@ -1,0 +1,43 @@
+.nav {
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.link {
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(5) 100px ;
+  grid-auto-rows: auto;
+  gap: 20px;
+  
+}
+

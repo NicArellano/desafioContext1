@@ -6,11 +6,11 @@ const Home = () => {
   const { pics, loading } = useContext(ApiContext);
 
   return (
-    <div>
+    <div className="home">
       <div>
-        <h1>Natural Pic</h1>
+        <h1 className="title">Natural Pic</h1>
       </div>
-      <div>
+      <div className="main">
         {loading ? (
           <h3>Loading...</h3>
         ) : (
